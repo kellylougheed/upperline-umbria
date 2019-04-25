@@ -1,0 +1,145 @@
+/* Main Styles & Home Page */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("https://cdn.glitch.com/20635b5e-2656-4e90-9b0b-96433662cdc4%2Finterlaced.png?1556204623516");
+  font-family: 'Montserrat';
+  color: #333;
+}
+
+header {
+  height: 400px;
+  background-image: url("https://cdn.glitch.com/20635b5e-2656-4e90-9b0b-96433662cdc4%2Fthenaturaladventuredotcom.jpg?1556204284259");
+  background-size: cover;
+  background-position: center;
+  margin: 0 0 25px 0;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+header h1 {
+  font-size: 6em;
+  text-align: center;
+  padding: 100px 0;
+  opacity: 0.9;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 0;
+}
+
+#grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 2fr 1fr;
+  text-align: center;
+  margin: 0 25px 75px 25px;
+}
+
+#grid div {
+  background: rgba(255,255,255,0.8);
+  border-radius: 20px;
+}
+
+#grid div img {
+  width: 90%;
+  border-radius: 20px;
+}
+
+img {
+  filter: brightness(120%);
+}
+
+.button, button {
+  background-color: lightblue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.2em;
+  border: none;
+}
+
+footer {
+  background-color: lightblue;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 8pt;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+a:hover {
+  color: lightblue;
+  background-color: white;
+  border-bottom: 2px solid white;
+}
+
+.center {
+  text-align: center;
+}
+
+.large-margin {
+    margin: 40px;
+}
+
+/* Spoleto Page */
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.container .button {
+  padding: 10px;
+  width: 30%;
+  border: none;
+}
+
+.main {
+  margin: 25px;
+  background-color: rgba(255,255,255,0.8);
+  color: #333;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+img.insta {
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1px;
+}
+
+p.insta-outer {
+  border: 2px solid #888;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 33%;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Indie Flower';
+}
+
+p.insta-outer a {
+  color: #999;
+}
